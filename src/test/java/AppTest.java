@@ -10,6 +10,6 @@ public class AppTest {
 
     @Test
     public void testSayingHi() {
-        Assertions.assertEquals("Hello_world", new Hello().sayHi());
+        Assertions.assertEquals("hello world", new Hello().sayHi());
     }
 }
